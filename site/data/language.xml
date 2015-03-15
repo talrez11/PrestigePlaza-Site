@@ -2,6 +2,38 @@
 <!DOCTYPE document SYSTEM "../units/schema/language.dtd">
 <document>
 	<language name="English" short="en" default="yes">
-		<constant name="site_title">Site title</constant>
+		<constant name="site_title">Prestige Plaza 5</constant>
+		<constant name="header_desc">For lease > Retail / Office space</constant>
+		<constant name="phone_btn">(555) 555 5555</constant>
+		<constant name="cta_btn">CTA BUTTON </constant>
+		<constant name="spaces">3 Spaces Available</constant>
+		<constant name="table_space1">Space 1</constant>
+		<constant name="table_space2">Space 2</constant>
+		<constant name="table_space3">Space 3</constant>
+		<constant name="table_row1">Space Available:</constant>
+		<constant name="table_row2">Rental Rate:</constant>
+		<constant name="table_row3">Space Type:</constant>
+		<constant name="table_row4">Lease Type:</constant>
+		<constant name="table_row5">Date Available:</constant>
+		<constant name="space1_Available">1,680 SF</constant>
+		<constant name="space2_Available">2,090 SF</constant>
+		<constant name="space3_Available">8,086 SF</constant>
+		<constant name="Rental_Rate">$12 /SF/Year</constant>
+		<constant name="Space_Type">Specialty Center</constant>
+		<constant name="Lease_Type">NNN</constant>
+		<constant name="space1_Date">Jul 2014</constant>
+		<constant name="space2_Date">Jul 2014</constant>
+		<constant name="space3_Date">Nov 2014</constant>
+		<constant name="desc">Description</constant>
+		<constant name="snap">Snapshot </constant>
+		<constant name="map">Map of the area</constant>
+		<constant name="Trade_area">Trade Area</constant>
+		<constant name="Site_Plan">Site Plan</constant>
+		<constant name="form_title">Call now and receive (something)</constant>
+		<constant name="form_desc">Please leave us your details and we will get back to your shortly
+		</constant>
+		<constant name="send">SEND FORM</constant>
+		<constant name="copyright">Designed and developed by<![CDATA[<a href="http://way2cu.com">Way2CU</a>.<br>All rights reserved.]]>
+	    </constant>
 	</language>
 </document>
