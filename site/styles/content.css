@@ -228,6 +228,7 @@ div.wrap div.trade div.trade_map {
 	padding-left: 15px;
 	text-align: left;
 	width:calc(66.7% - 15px);
+	min-height:575px;
 }
 
 div.wrap div.trade div.trade_map div.article {
@@ -257,7 +258,7 @@ div.wrap div.trade div.site_plan section {
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size:auto 85%;
-	height: 575px;
+	min-height: 575px;
 }
 
 /*
@@ -408,6 +409,50 @@ footer span {
 footer span a {
 	padding-left: 5px;
 	color:#449bb5;
+}
+
+/*
+	Tablet Version
+*/
+
+@media all and (max-width: 1024px) and (min-width: 768px){
+div.wrap {
+	padding: 0px calc((100vw - 1200px) / 2);
+}
+div.wrap div.space {
+	padding-left: 10px;
+}
+
+div.wrap div.gallery div.image {
+	margin-right: 15px;
+}
+
+div.wrap div.desc {
+	padding-left: 10px;
+}
+
+div.wrap div.snapshot {
+	padding-left: 10px;
+}
+
+div.wrap div.area {
+	padding-left: 10px;
+}
+
+div.wrap div.trade div.trade_map {
+	display: block;
+	padding-left: 0px;
+	width: 100%;
+	text-align: center;
+}
+
+div.wrap div.trade div.site_plan {
+	display: block;
+	padding-left: 0px;
+	width: 100%;
+	text-align: center;
+}
+
 }
 
 
