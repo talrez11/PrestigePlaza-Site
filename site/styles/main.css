@@ -1,12 +1,13 @@
 /**
  * Main Style Sheet
- * Site Name
+ * PrestigePlaza-Site
  *
  * Copyright (c) 2015. by Way2CU, http://way2cu.com
- * Authors:
+ * Authors:Tal Reznic
  */
-
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,700,900);
 body {
+	font-family: 'Merriweather', serif;
 	background-color: white;
-	color: black;
+	color: #57585a;
 }
