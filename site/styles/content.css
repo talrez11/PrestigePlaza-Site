@@ -1,0 +1,416 @@
+/**
+ * Main Style Sheet
+ * PrestigePlaza-Site
+ *
+ * Copyright (c) 2015. by Way2CU, http://way2cu.com
+ * Authors:Tal Reznic
+ */
+
+ /*
+	Generic
+ */
+
+ a.btn {
+	display: inline-block;
+ 	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right:40px;
+ 	background-color:#f29b11;
+ 	box-shadow : 1px 1px 2px rgba(0, 0, 0, 0.3);
+ 	color:white;
+	font-size: 1.6em;
+	font-weight: 700;
+	border:none;
+	border-radius: 8px;
+	text-decoration: none;
+	cursor: pointer;
+	transition:all 0.3s
+ }
+
+ a.btn:hover {
+ 	background-color: #F27D11;
+ }
+
+ h2 {
+ 	font-size:2.8em;
+ }
+
+ p {
+ 	font-size: 1.2em;
+ }
+
+ div.wrap {
+ 	display: block;
+ 	padding:20px calc((100vw - 1200px) / 2);
+ }
+
+ /*Content Section*/
+
+div.wrap {
+	text-align: center;
+	background-image:url(../images/spaces/skyline.svg), url(../images/header/linedpaper.png);
+	background-repeat: no-repeat,repeat;
+	background-position: top center,center center;
+	background-size:1920px 635px ,412px 300px;
+}
+div.wrap h2 {
+	display: block;
+	padding-top: 200px;
+	text-align: center;
+	font-weight: 300;
+	color: white;
+}
+
+div.wrap div.space {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 15px;
+	text-align: left;
+	width:calc(33% - 15px);
+}
+
+div.wrap div.space h3 {
+	display: block;
+	color:white;
+	font-weight: 300;
+}
+
+div.wrap div.space table {
+	display: block;
+	background-color: white;
+	border:1px solid #bcc2c6;
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.31);
+}
+
+div.wrap div.space table tr {
+	display: block;
+	padding:10px;
+	border-bottom: 1px solid #bcc2c6;
+}
+
+div.wrap div.space table tr:last-of-type {
+	border: none;
+}
+
+
+div.wrap div.space table tr td {
+	width: 200px;
+}
+
+/*Gallery*/
+
+div.wrap div.gallery {
+	display: block;
+	margin-top: 40px;
+}
+
+div.wrap div.gallery div.image {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 65px;
+}
+
+div.wrap div.gallery div.image:last-of-type {
+	margin-right: 0px;
+}
+
+
+
+div.wrap div.info {
+	display: block;
+	margin-top: 40px;
+}
+
+div.wrap div.desc {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 15px;
+	text-align: left;
+	width:calc(33% - 15px);
+
+}
+
+div.wrap div.desc h3 {
+	display: block;
+	color:#33485d;
+}
+
+div.wrap div.desc div.article {
+	display: block;
+	background-color: white;
+	border:1px solid #bcc2c6;
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.31);
+	padding: 10px;
+	height:350px;
+
+}
+
+div.wrap div.snapshot {
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	padding-left: 15px;
+	width:calc(33% - 15px);
+
+}
+
+div.wrap div.snapshot h3 {
+	display: block;
+	color:#33485d;
+}
+
+div.wrap div.snapshot div.article {
+	display: block;
+	background-color: white;
+	border:1px solid #bcc2c6;
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.31);
+	padding: 10px;
+	height:350px;
+}
+
+div.wrap div.snapshot div.article table {
+	text-align: left;
+}
+
+div.wrap div.snapshot div.article table tr {
+	display: block;
+	padding:10px;
+	border-bottom: 1px solid #bcc2c6;
+}
+
+div.wrap div.snapshot div.article table tr:last-of-type {
+	border-bottom: none;
+}
+
+div.wrap div.snapshot div.article table tr td {
+	width: 200px;
+}
+
+/*Map*/
+
+div.wrap div.area {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 15px;
+	text-align: left;
+	width:calc(33% - 15px);
+}
+
+div.wrap div.area h3 {
+	display: block;
+	color:#33485d;
+}
+
+div.wrap div.area div.map {
+	display: block;
+	background-color:#d4d6d7;
+	background-image: url(../images/desc/Map_of_the_area.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size:auto 100%;
+	border:1px solid #bcc2c6;
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.31);
+	padding:10px;
+	height:350px;
+}
+
+/*Trade Area*/
+
+div.wrap div.trade {
+	display: block;
+	margin-top: 40px;
+}
+
+div.wrap div.trade div.trade_map {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 15px;
+	text-align: left;
+	width:calc(66.7% - 15px);
+}
+
+div.wrap div.trade div.trade_map div.article {
+	display: block;
+	border-top: 1px solid #d4d6d7;
+}
+
+
+div.wrap div.trade div.trade_map div.article p:last-of-type {
+	margin: 0px;
+}
+
+div.wrap div.trade div.site_plan {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 15px;
+	text-align: left;
+	width:calc(33.3% - 15px);
+}
+
+div.wrap div.trade div.site_plan section {
+	display: block;
+	border: 1px solid #d4d6d7;
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.31);
+	background-color: white;
+	background-image: url(../images/desc/site-plan.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size:auto 85%;
+	height: 575px;
+}
+
+/*
+	Contact Section
+*/
+
+div.contact {
+	background-color:#33485d;
+	padding:20px calc((100vw - 1200px) / 2);
+}
+
+div.contact div.property {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 15px;
+	width:calc(33.3% - 15px);
+}
+
+div.contact div.property h3 {
+	display: block;
+	color:white;
+}
+
+div.contact div.property table {
+	display: block;
+	background-color: white;
+	border:1px solid #bcc2c6;
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.31);
+}
+
+div.contact div.property table tr {
+	display: block;
+	padding:10px;
+	border-bottom: 1px solid #bcc2c6;
+}
+
+div.contact div.property table tr:last-of-type {
+	border: none;
+}
+
+div.contact div.property table tr td {
+	width: 200px;
+}
+
+div.contact div.property table tr td:last-of-type {
+	padding-left: 20px;
+}
+
+/*
+	Form
+*/
+
+div.contact div.form_wrap {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 15px;
+	text-align: center;
+	color:white;
+	width:calc(66.7% - 15px);
+}
+
+div.contact div.form_wrap a.btn {
+	padding-left: 85px;
+	background-image: url(../images/header/phone-circle.svg);
+	background-repeat: no-repeat;
+	background-position: 35px center;
+	background-size: 35px 35px;
+}
+
+div.contact form {
+	display: block;
+}
+
+div.contact form label {
+	display: block;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+div.contact form label span {
+	display: inline-block;
+	vertical-align: middle;
+	width: 80px;
+}
+
+div.contact form label input {
+	display: inline-block;
+	vertical-align: middle;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 5px;
+	width: 60%;
+}
+
+div.contact form div.controls {
+	display: block;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+div.contact form div.controls button {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	background-color: #f29b11;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+	color: white;
+	font-size: 1.6em;
+	font-weight: 400;
+	border: none;
+	border-radius: 8px;
+	text-decoration: none;
+	cursor: pointer;
+	transition: all 0.3s;
+
+}
+
+div.contact form div.controls button:hover {
+	background-color: #F27D11;
+}
+
+footer {
+	display: block;
+	text-align: center;
+	background-color: black;
+	padding: 20px calc((100vw - 1200px) / 2);
+
+}
+
+footer span {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-image: url(../images/photos/way2cu-color.svg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 40px 46px;
+	font-size: 0.8em;
+	width: 280px;
+	text-align: left;
+	color:white;
+}
+
+footer span a {
+	padding-left: 5px;
+	color:#449bb5;
+}
+
+
+
+
+
