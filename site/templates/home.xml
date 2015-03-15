@@ -5,11 +5,179 @@
 	<html lang="$language" cms:eval="lang">
 		<head>
 			<title><cms:text constant="site_title"/></title>
+			<cms:collection include="page_control,animation_chain"/>
 			<cms:module name="head_tag" action="print_tag"/>
 		</head>
-
 		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
-			<h1>It works!</h1>
+			<!-- Top section of the site -->
+			<header>
+				<a href="#" class="btn"><cms:text constant="phone_btn"/></a>
+				<p><cms:text constant="header_desc"/></p>
+				<h1><cms:text constant="site_title"/></h1>
+				<cms:module
+							name="articles"
+							action="show"
+							text_id="header_article"
+							template="parts/article2.xml"
+							/>
+				<a href="#" class="btn"><cms:text constant="cta_btn"/></a>
+			</header>
+			<!-- Content Section -->
+			<div class="wrap">
+				<h2><cms:text constant="spaces"/></h2>
+				<div class="space">
+					<h3><cms:text constant="table_space1"/></h3>
+					<table>
+						<tr>
+							<td><cms:text constant="table_row1"/></td>
+							<td><strong><cms:text constant="space1_Available"/></strong></td>
+						</tr>
+						<tr>
+							<td><cms:text constant="table_row2"/></td>
+							<td><strong><cms:text constant="Rental_Rate"/></strong></td>
+						</tr>
+						<tr>
+							<td><cms:text constant="table_row3"/></td>
+							<td><cms:text constant="Space_Type"/></td>
+						</tr>
+						<tr>
+							<td><cms:text constant="table_row4"/></td>
+							<td><cms:text constant="Lease_Type"/></td>
+						</tr>
+						<tr>
+							<td><cms:text constant="table_row5"/></td>
+							<td><cms:text constant="space1_Date"/></td>
+						</tr>
+					</table>
+				</div>
+				<div class="space">
+					<h3><cms:text constant="table_space2"/></h3>
+					<table>
+						<tr>
+							<td><cms:text constant="table_row1"/></td>
+							<td><strong><cms:text constant="space2_Available"/></strong></td>
+						</tr>
+						<tr>
+							<td><cms:text constant="table_row2"/></td>
+							<td><strong><cms:text constant="Rental_Rate"/></strong></td>
+						</tr>
+						<tr>
+							<td><cms:text constant="table_row3"/></td>
+							<td><cms:text constant="Space_Type"/></td>
+						</tr>
+						<tr>
+							<td><cms:text constant="table_row4"/></td>
+							<td><cms:text constant="Lease_Type"/></td>
+						</tr>
+						<tr>
+							<td><cms:text constant="table_row5"/></td>
+							<td><cms:text constant="space1_Date"/></td>
+						</tr>
+					</table>
+				</div>
+				<div class="space">
+					<h3><cms:text constant="table_space3"/></h3>
+					<table>
+						<tr>
+							<td><cms:text constant="table_row1"/></td>
+							<td><strong><cms:text constant="space3_Available"/></strong></td>
+						</tr>
+						<tr>
+							<td><cms:text constant="table_row2"/></td>
+							<td><strong><cms:text constant="Rental_Rate"/></strong></td>
+						</tr>
+						<tr>
+							<td><cms:text constant="table_row3"/></td>
+							<td><cms:text constant="Space_Type"/></td>
+						</tr>
+						<tr>
+							<td><cms:text constant="table_row4"/></td>
+							<td><cms:text constant="Lease_Type"/></td>
+						</tr>
+						<tr>
+							<td><cms:text constant="table_row5"/></td>
+							<td><cms:text constant="space3_Date"/></td>
+						</tr>
+					</table>
+				</div>
+				<!-- Gallery -->
+				<div class="gallery">
+					<cms:module
+						name="gallery"
+						action="show_image_list"
+						group="prestige_plaza_gallery"
+						random="1"
+						template="parts/image.xml"
+						/>
+				</div>
+				<div class="info">
+					<div class="desc">
+						<h3><cms:text constant="desc"/></h3>
+						<cms:module
+							name="articles"
+							action="show"
+							text_id="Description_article"
+							template="parts/article_noHeading.xml"
+							/>
+					</div>
+					<div class="snapshot">
+						<h3><cms:text constant="snap"/></h3>
+						<cms:module
+							name="articles"
+							action="show"
+							text_id="snapshot_article"
+							template="parts/article_noHeading.xml"
+							/>
+					</div>
+					<div class="area">
+						<h3><cms:text constant="map"/></h3>
+						<div class="map"></div>
+					</div>
+				</div>
+				<!-- Trade Area -->
+				<div class="trade">
+					<div class="trade_map">
+						<h3><cms:text constant="Trade_area"/></h3>
+						<cms:module
+							name="articles"
+							action="show"
+							text_id="trade_area_article"
+							template="parts/article_noHeading.xml"
+							/>
+
+					</div>
+					<div class="site_plan">
+						<h3><cms:text constant="Site_Plan"/></h3>
+						<section>
+						</section>
+					</div>
+				</div>
+			</div>
+			<!-- Contact Section -->
+			<div class="contact">
+				<div class="property">
+					<cms:module
+							name="articles"
+							action="show"
+							text_id="property_article"
+							template="parts/article2.xml"
+							/>
+				</div>
+				<div class="form_wrap">
+					<h3><cms:text constant="form_title"/></h3>
+					<a href="#" class="btn"><cms:text constant="phone_btn"/></a>
+					<p><cms:text constant="form_desc"/></p>
+					<cms:module
+		 				name="contact_form"
+		 				action="show"
+		 				text_id="contact_form"
+							/>
+				</div>
+			</div>
+			<!-- Bottom Section of the site -->
+			<footer>
+				<span><cms:text constant="copyright"/></span>
+			</footer>
 		</body>
 	</html>
 </document>
