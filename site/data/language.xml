@@ -4,8 +4,9 @@
 	<language name="English" short="en" default="yes">
 		<constant name="site_title">Prestige Plaza 5</constant>
 		<constant name="header_desc">For lease > Retail / Office space</constant>
+		<constant name="Plaza_address">20 Prestige plaza miamisburg, Ohio 45342</constant>
 		<constant name="phone_btn">(555) 555 5555</constant>
-		<constant name="cta_btn">CTA BUTTON </constant>
+		<constant name="cta_btn">Contact us now </constant>
 		<constant name="spaces">3 Spaces Available</constant>
 		<constant name="table_space1">Space 1</constant>
 		<constant name="table_space2">Space 2</constant>
