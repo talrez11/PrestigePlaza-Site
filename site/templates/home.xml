@@ -10,18 +10,39 @@
 		</head>
 		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
 			<!-- Top section of the site -->
+		<cms:desktop>
 			<header>
 				<a href="#" class="btn"><cms:text constant="phone_btn"/></a>
 				<p><cms:text constant="header_desc"/></p>
 				<h1><cms:text constant="site_title"/></h1>
+				<h3><cms:text constant="Plaza_address"/></h3>
 				<cms:module
 							name="articles"
 							action="show"
 							text_id="header_article"
-							template="parts/article2.xml"
+							template="parts/article_noHeading.xml"
 							/>
 				<a href="#" class="btn"><cms:text constant="cta_btn"/></a>
 			</header>
+		</cms:desktop>
+		<cms:mobile>
+			<header>
+				<div class="mobile_header">
+					<a href="#"></a>
+					<p><cms:text constant="header_desc"/></p>
+					<h1><cms:text constant="site_title"/></h1>
+					<h3><cms:text constant="Plaza_address"/></h3>
+				</div>
+				<span></span>
+				<a href="#" class="btn"><cms:text constant="cta_btn"/></a>
+				<cms:module
+							name="articles"
+							action="show"
+							text_id="header_article"
+							template="parts/article_noHeading.xml"
+							/>
+			</header>
+		</cms:mobile>
 			<!-- Content Section -->
 			<div class="wrap">
 				<h2><cms:text constant="spaces"/></h2>
