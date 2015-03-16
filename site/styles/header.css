@@ -61,6 +61,7 @@ header div.article {
 header div.article p {
 	display: block;
 	padding-left: 20px;
+	padding-right: 20px;
 	color:#33485d;
 	position: relative;
 }
