@@ -169,8 +169,8 @@
 					</div>
 					<div class="site_plan">
 						<h3><cms:text constant="Site_Plan"/></h3>
-						<section>
-						</section>
+						<div class="site_image">
+						</div>
 					</div>
 				</div>
 			</div>
