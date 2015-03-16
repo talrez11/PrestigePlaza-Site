@@ -66,8 +66,9 @@ div.wrap div.space {
 	display: inline-block;
 	vertical-align: top;
 	padding-left: 15px;
+	padding-right: 15px;
 	text-align: left;
-	width:calc(33% - 15px);
+	width:calc(33% - 30px);
 }
 
 div.wrap div.space h3 {
@@ -126,8 +127,9 @@ div.wrap div.desc {
 	display: inline-block;
 	vertical-align: top;
 	padding-left: 15px;
+	padding-right: 15px;
 	text-align: left;
-	width:calc(33% - 15px);
+	width:calc(33% - 30px);
 
 }
 
@@ -151,7 +153,8 @@ div.wrap div.snapshot {
 	vertical-align: top;
 	text-align: left;
 	padding-left: 15px;
-	width:calc(33% - 15px);
+	padding-right: 15px;
+	width:calc(33% - 30px);
 
 }
 
@@ -193,8 +196,9 @@ div.wrap div.area {
 	display: inline-block;
 	vertical-align: top;
 	padding-left: 15px;
+	padding-right: 15px;
 	text-align: left;
-	width:calc(33% - 15px);
+	width:calc(33% - 30px);
 }
 
 div.wrap div.area h3 {
@@ -226,8 +230,9 @@ div.wrap div.trade div.trade_map {
 	display: inline-block;
 	vertical-align: top;
 	padding-left: 15px;
+	padding-right: 15px;
 	text-align: left;
-	width:calc(66.7% - 15px);
+	width:calc(66.7% - 30px);
 	min-height:575px;
 }
 
@@ -245,8 +250,9 @@ div.wrap div.trade div.site_plan {
 	display: inline-block;
 	vertical-align: top;
 	padding-left: 15px;
+	padding-right: 15px;
 	text-align: left;
-	width:calc(33.3% - 15px);
+	width:calc(33.3% - 30px);
 }
 
 div.wrap div.trade div.site_plan section {
@@ -274,7 +280,8 @@ div.contact div.property {
 	display: inline-block;
 	vertical-align: top;
 	padding-left: 15px;
-	width:calc(33.3% - 15px);
+	padding-right: 15px;
+	width:calc(33.3% - 30px);
 }
 
 div.contact div.property h3 {
@@ -315,9 +322,10 @@ div.contact div.form_wrap {
 	display: inline-block;
 	vertical-align: top;
 	padding-left: 15px;
+	padding-right: 15px;
 	text-align: center;
 	color:white;
-	width:calc(66.7% - 15px);
+	width:calc(66.7% - 30px);
 }
 
 div.contact div.form_wrap a.btn {
@@ -444,6 +452,10 @@ div.wrap div.trade div.trade_map {
 	padding-left: 0px;
 	width: 100%;
 	text-align: center;
+}
+
+div.wrap div.trade div.trade_map div.article {
+	border: none;
 }
 
 div.wrap div.trade div.site_plan {
