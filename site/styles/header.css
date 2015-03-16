@@ -13,7 +13,6 @@ header {
 	background-image: url(../images/header/header-background.jpg);
 	background-repeat: no-repeat;
 	background-position: top center;
-	min-height: 700px;
 	position: relative;
 }
 
@@ -47,26 +46,26 @@ header h1 {
 
 }
 
-header article {
+header > h3 {
+	display: block;
+	padding-left: 15px;
+	color:#1d4779;
+}
+
+header div.article {
 	display:block;
 	padding-left: 15px;
 	width: 45%;
 }
 
-header article h3 {
-	display: block;
-	color:#1d4779;
-
-}
-
-header article p {
+header div.article p {
 	display: block;
 	padding-left: 20px;
 	color:#33485d;
 	position: relative;
 }
 
-header article p:before {
+header div.article p:before {
 	content:'>';
 	position: absolute;
 	top:0px;
